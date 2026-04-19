@@ -38,33 +38,39 @@ MediSense is an AI-powered healthcare application that provides early disease pr
 
 ## Screenshots
 
-### Home & Navigation
+## Screenshots
 
-![Landing Page](LandingHomePage.jpg)
-![Login Page](LoginPage.jpg)
-![Sign Up Page](SignUpPage.jpg)
-![My Account](MyAccountPage.jpg)
+<table>
+<tr>
+<td><img src="LandingHomePage.jpg" width="250"/></td>
+<td><img src="LoginPage.jpg" width="250"/></td>
+<td><img src="SignUpPage.jpg" width="250"/></td>
+</tr>
 
-### Core Features
+<tr>
+<td><img src="MyAccountPage.jpg" width="250"/></td>
+<td><img src="DiseasePredictionPage.jpg" width="250"/></td>
+<td><img src="DiabetesPrediction.jpg" width="250"/></td>
+</tr>
 
-![Disease Prediction](DiseasePredictionPage.jpg)
-![Diabetes Prediction](DiabetesPrediction.jpg)
-![Stress Prediction](StressPrediction.jpg)
+<tr>
+<td><img src="StressPrediction.jpg" width="250"/></td>
+<td><img src="MedicationIdentificationPage.jpg" width="250"/></td>
+<td><img src="ChatBotPage.jpg" width="250"/></td>
+</tr>
 
-### Additional Features
+<tr>
+<td><img src="BreathingExercisePage.jpg" width="250"/></td>
+<td><img src="RecommedationsPage.jpg" width="250"/></td>
+<td><img src="FeedBackPage.jpg" width="250"/></td>
+</tr>
 
-![Medication Identification](MedicationIdentificationPage.jpg)
-![Chatbot](ChatBotPage.jpg)
-![Breathing Exercise](BreathingExercisePage.jpg)
+<tr>
+<td><img src="AdminPage.jpg" width="250"/></td>
+</tr>
+</table>
 
-### Results & Feedback
 
-![Recommendations](RecommedationsPage.jpg)
-![Feedback](FeedBackPage.jpg)
-
-### Admin Panel
-
-![Admin Page](AdminPage.jpg)
 
 
 ---
