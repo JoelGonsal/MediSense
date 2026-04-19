@@ -36,37 +36,34 @@ MediSense is an AI-powered healthcare application that provides early disease pr
 
 ## Screenshots
 
-## Screenshots
-
-## Screenshots
 
 <table>
 <tr>
-<td><img src="LandingHomePage.jpg" width="250"/></td>
-<td><img src="LoginPage.jpg" width="250"/></td>
-<td><img src="SignUpPage.jpg" width="250"/></td>
+<td><img src="screenshots/LandingHomePage.jpg" width="250"/></td>
+<td><img src="screenshots/LoginPage.jpg" width="250"/></td>
+<td><img src="screenshots/SignUpPage.jpg" width="250"/></td>
 </tr>
 
 <tr>
-<td><img src="MyAccountPage.jpg" width="250"/></td>
-<td><img src="DiseasePredictionPage.jpg" width="250"/></td>
-<td><img src="DiabetesPrediction.jpg" width="250"/></td>
+<td><img src="screenshots/MyAccountPage.jpg" width="250"/></td>
+<td><img src="screenshots/DiseasePredictionPage.jpg" width="250"/></td>
+<td><img src="screenshots/DiabetesPrediction.jpg" width="250"/></td>
 </tr>
 
 <tr>
-<td><img src="StressPrediction.jpg" width="250"/></td>
-<td><img src="MedicationIdentificationPage.jpg" width="250"/></td>
-<td><img src="ChatBotPage.jpg" width="250"/></td>
+<td><img src="screenshots/StressPrediction.jpg" width="250"/></td>
+<td><img src="screenshots/MedicationIdentificationPage.jpg" width="250"/></td>
+<td><img src="screenshots/ChatBotPage.jpg" width="250"/></td>
 </tr>
 
 <tr>
-<td><img src="BreathingExercisePage.jpg" width="250"/></td>
-<td><img src="RecommedationsPage.jpg" width="250"/></td>
-<td><img src="FeedBackPage.jpg" width="250"/></td>
+<td><img src="screenshots/BreathingExercisePage.jpg" width="250"/></td>
+<td><img src="screenshots/RecommedationsPage.jpg" width="250"/></td>
+<td><img src="screenshots/FeedBackPage.jpg" width="250"/></td>
 </tr>
 
 <tr>
-<td><img src="AdminPage.jpg" width="250"/></td>
+<td><img src="screenshots/AdminPage.jpg" width="250"/></td>
 </tr>
 </table>
 
