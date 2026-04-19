@@ -150,8 +150,6 @@ ngrok http 8000
 ## Contributors
 
 * Joel Gonsalves
-* Parag Sarkhot
-* Aksh Soni
 
 ---
 
