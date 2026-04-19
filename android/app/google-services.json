@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509250005804",
+    "project_id": "elder-ease-fkwij9",
+    "storage_bucket": "elder-ease-fkwij9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509250005804:android:49f0c647e5df1f0fd65a89",
+        "android_client_info": {
+          "package_name": "com.mycompany.a023"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwp7oqdStmxKIRUqOWPVs3IL24pdRH9rY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509250005804:android:9acdf5f85c94f450d65a89",
+        "android_client_info": {
+          "package_name": "com.mycompany.elderease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwp7oqdStmxKIRUqOWPVs3IL24pdRH9rY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
