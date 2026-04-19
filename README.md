@@ -1,36 +1,51 @@
 # MediSense – AI Healthcare App
 
-# Description
+## Overview
 
-AI-based app for disease prediction, diabetes analysis, and stress detection
+MediSense is an AI-powered healthcare application that provides early disease prediction, diabetes risk analysis, and mental stress detection using machine learning models. It delivers instant results along with personalized precautions, diet plans, and wellness recommendations.
 
-# Features
+---
 
-Disease prediction from symptoms
-Diabetes risk prediction
-Mental stress analysis
-Medicine identification
-AI chatbot
+## Features
 
-# Installation
+* Disease prediction from symptoms
+* Diabetes risk analysis
+* Mental stress detection
+* Medicine identification system
+* AI healthcare chatbot
+* Personalized diet, precautions, and workout suggestions
 
-Download APK from Releases
-Install on Android device
+---
 
-# Tech Stack
+## Tech Stack
 
-FlutterFlow (Frontend)
-FastAPI (Backend)
-TensorFlow / Scikit-learn (ML Models)
-Firebase (Database)
+* Frontend: FlutterFlow
+* Backend: FastAPI
+* Machine Learning: TensorFlow Lite, Scikit-learn
+* Database: Firebase
+* API Tunneling: ngrok
+
+---
+
+## APK Download
+
+* Download the latest APK from the **Releases** section of this repository
+* Install it on your Android device
+
+---
+
+## Screenshots
+
+![Home](screenshots/home.png)
+![Disease Prediction](screenshots/disease.png)
+![Stress Analysis](screenshots/stress.png)
+![Results](screenshots/result.png)
+
+---
 
 ## Backend Setup (FastAPI)
 
-Follow these steps to run the MediSense backend locally and connect it to the app.
-
 ### 1. Install Requirements
-
-Make sure Python is installed, then install dependencies:
 
 pip install -r requirements.txt
 
@@ -38,68 +53,79 @@ pip install -r requirements.txt
 
 ### 2. Run FastAPI Server
 
-Start the backend server using Uvicorn:
-
 uvicorn main:app --reload
 
-* This will start the API at:
+* Server runs on:
   http://127.0.0.1:8000
 
 ---
 
-### 3. Start ngrok Tunnel
-
-To make your local server accessible from your mobile app, use ngrok:
+### 3. Start ngrok
 
 ngrok http 8000
 
-* You will get a public URL like:
+* Example URL:
   https://abcd1234.ngrok.io
 
 ---
 
-### 4. Update API URL in App
+### 4. Connect to App
 
-* Open your FlutterFlow / frontend project
-* Replace the base API URL with your ngrok URL
-
-Example:
-
-https://abcd1234.ngrok.io
+* Replace API base URL in your FlutterFlow project with the ngrok URL
 
 ---
 
-### 5. Test the API
+### 5. Test API
 
-* Open browser:
+* Open in browser:
   https://abcd1234.ngrok.io/docs
 
-* This shows FastAPI Swagger UI where you can test all endpoints
+---
+
+## Project Structure
+
+* main.py → FastAPI entry point
+* models/ → ML models (.tflite, .h5)
+* data/ → datasets (symptoms, diet, precautions)
+* services/ → prediction logic
+* screenshots/ → app UI images
 
 ---
 
-### Important Notes
+## How It Works
 
-* ngrok URL changes every time you restart it
-* Always update the new URL in your app
+1. User enters symptoms or health data
+2. Backend processes input using ML models
+3. API returns predictions and recommendations
+4. App displays results in a user-friendly interface
+
+---
+
+## Important Notes
+
+* ngrok URL changes every session
+* Update URL in app before testing
 * Keep backend running while using the app
 
 ---
 
-### Tech Stack
+## Future Improvements
 
-* FastAPI (Backend API)
-* Uvicorn (ASGI Server)
-* ngrok (Public URL tunneling)
+* Real-time doctor consultation
+* Wearable device integration
+* Cloud deployment (AWS/GCP)
+* Advanced health analytics dashboard
 
 ---
 
-### Troubleshooting
+## Contributors
 
-* If API not working → check if Uvicorn is running
-* If app not connecting → verify ngrok URL is updated
-* If port error → make sure port 8000 is free
+* Joel Gonsalves
+* Parag Sarkhot
+* Aksh Soni
 
+---
 
+## License
 
-
+This project is for educational purposes.
