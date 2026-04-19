@@ -36,10 +36,36 @@ MediSense is an AI-powered healthcare application that provides early disease pr
 
 ## Screenshots
 
-![Home](screenshots/home.png)
-![Disease Prediction](screenshots/disease.png)
-![Stress Analysis](screenshots/stress.png)
-![Results](screenshots/result.png)
+## Screenshots
+
+### Home & Navigation
+
+![Landing Page](LandingHomePage.jpg)
+![Login Page](LoginPage.jpg)
+![Sign Up Page](SignUpPage.jpg)
+![My Account](MyAccountPage.jpg)
+
+### Core Features
+
+![Disease Prediction](DiseasePredictionPage.jpg)
+![Diabetes Prediction](DiabetesPrediction.jpg)
+![Stress Prediction](StressPrediction.jpg)
+
+### Additional Features
+
+![Medication Identification](MedicationIdentificationPage.jpg)
+![Chatbot](ChatBotPage.jpg)
+![Breathing Exercise](BreathingExercisePage.jpg)
+
+### Results & Feedback
+
+![Recommendations](RecommedationsPage.jpg)
+![Feedback](FeedBackPage.jpg)
+
+### Admin Panel
+
+![Admin Page](AdminPage.jpg)
+
 
 ---
 
